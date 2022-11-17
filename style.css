@@ -1,0 +1,233 @@
+:root {
+  --text-color: #667085;
+  --main-color: #8e2424;
+  --title-color: #101828;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 5%;
+  align-items: center;
+}
+
+.nav-left-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  gap: 8px;
+}
+
+.nav-menu-itens {
+  display: -webkit-inline-flex;
+  gap: 32px;
+  list-style: none;
+}
+
+.nav-menu-itens li a,
+.nav-right-link {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.nav-right-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.bottom {
+  color: white;
+  background-color: var(--main-color);
+  padding: 10px 18px;
+  border-radius: 8px;
+}
+
+section {
+  text-align: center;
+  padding: 5% 20%;
+  margin-top: 5%;
+}
+
+section span,
+h1,
+h2,
+p {
+  margin: 3% 0;
+}
+
+section span {
+  color: var(--main-color);
+  font-weight: bold;
+  margin-bottom: 10%;
+  font-size: 16px;
+}
+
+section h1 {
+  font-size: 48px;
+}
+
+section h2 {
+  font-size: 36px;
+}
+
+section p {
+  color: var(--text-color);
+  font-size: 20px;
+}
+
+.metricas {
+  display: flex;
+  gap: 56px;
+  padding: 0 5% 5%;
+  text-align: left;
+}
+
+.metricas-item * {
+  margin: 0;
+}
+
+.metricas-item-numero {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 72px;
+  color: var(--main-color);
+}
+
+.metricas-item-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--title-color);
+}
+
+.metricas-item-descricao {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-color);
+}
+
+.talents {
+  padding: 5%;
+}
+
+.vagas {
+  margin: 0 auto;
+  padding: 0 20%;
+  text-align: left;
+}
+
+.categoria-vaga {
+  color: var(--title-color);
+  font-size: 20px;
+}
+
+.vaga {
+  margin: 10% 3%;
+}
+
+.caixa-vaga {
+  margin-top: 4%;
+}
+
+.titulo-vaga {
+  font-size: 18px;
+  color: var(--title-color) !important;
+  margin-bottom: 5% !important;
+}
+
+.informacoes {
+  margin-top: 5%;
+}
+
+.informacoes span {
+  margin-right: 5%;
+  font-size: 16px;
+  color: var(--text-color);
+  font-weight: normal;
+}
+.depoimentos {
+  margin-top: 0;
+  padding: 0 5% 8%;
+}
+
+.depoimentos h2 {
+  font-weight: 500;
+}
+
+.colab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.colab * {
+  margin: 0;
+}
+
+.colab img {
+  width: 5%;
+}
+
+.colab-name {
+  color: var(--title-color);
+}
+
+.colab-job {
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.oportunidades {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.oportunidades form {
+  margin-bottom: 3%;
+}
+
+.oportunidades input {
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  /* Shadow/xs */
+
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  padding: 1%;
+  width: 280px;
+  font-size: 16px;
+}
+
+.oportunidades button {
+  background-color: var(--main-color);
+  padding: 1% 2%;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.oportunidades small {
+  font-size: 16px;
+  color: #98a2b3;
+}
